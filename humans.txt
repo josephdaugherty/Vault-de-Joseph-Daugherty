@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+   Joe Daugherty -- Aspiring Software Engineer :) -- @josephbutyoucancallmejoe on Instagram
+
+# THANKS
+
+  My Mom: I love you!
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
