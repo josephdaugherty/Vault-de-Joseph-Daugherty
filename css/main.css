@@ -21,9 +21,9 @@ html {
   width: 100%;
   height: 100vh;
   --s: 222px;
-  --c1: #7f727b;
-  --c2: #d6b4c2;
-  --c3: #baa0ab;
+  --c1: #72747f;
+  --c2: #b4b6d6;
+  --c3: #a0a4ba;
 
   --_g: var(--c1) 10%, var(--c2) 10.5% 19%, #0000 19.5% 80.5%,
   var(--c2) 81% 89.5%, var(--c3) 90%;
@@ -44,6 +44,27 @@ html {
   background-size: var(--s) calc(2 * var(--s) / 3);
 }
 
+.splash{
+  cursor : pointer;
+  position : fixed;
+  top : 50%;
+  left : 50%;
+  height : 95%;
+  width : 95%;
+  transform : translate(-50%,-50%);
+  background-color: rgba(0,0,0);
+  transition : all ease-in-out 100ms;
+}
+
+.splash-header {
+  height : 90%;
+  color : white;
+  font-family : consolas;
+  font-size : 30px;
+  display : flex;
+  justify-content: center;
+  align-items : center;
+}
 
 /*
  * Remove text-shadow in selection highlight:
