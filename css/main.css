@@ -49,23 +49,35 @@ html {
   position : fixed;
   top : 50%;
   left : 50%;
-  height : 95%;
-  width : 95%;
+  height : 100%;
   transform : translate(-50%,-50%);
-  background-color: rgba(0,0,0);
+  background-color: #178048;
   transition : all ease-in-out 100ms;
+  width: 100%;
+}
+
+.splash img {
+  height: 25%;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
 }
 
 .splash-header {
   height : 90%;
   color : white;
-  font-family : consolas;
+  font-family : "Helvetica Neue";
   font-size : 30px;
   display : flex;
   justify-content: center;
   align-items : center;
 }
 
+.hidden{
+  transition : 0.5s;
+  display : none;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
